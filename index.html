@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description...">
+    <meta name="keywords" content="keywords">
+    <title>Car Store</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!--  fontawesome  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
+<body>
+
+<header class="header">
+    <div class="container header__wrap">
+        <div class="row header__top">
+            <div class="col-md-9 ml-auto">
+                <a href="#" class="header__user">
+                    <i class="fas fa-user"></i>
+                    My Account
+                </a>
+                <a href="#" class="header__user">
+                    <i class="fas fa-cart-plus"></i>
+                    Cart
+                </a>
+                <a href="#" class="header__user">
+                    <i class="fas fa-check-circle"></i>
+                    Checkout
+                </a>
+                <span class="header__search">
+                    <i class="fas fa-search"></i>
+                </span>
+            </div>
+        </div>
+        <div class="row align-items-center header__center">
+            <div class="col-lg-3 header__logo-wrap">
+                <a href="#">
+                    <img src="img/logo.png" alt="CarsTore" class="header__logo">
+                </a>
+            </div>
+            <div class="col-lg-5 header__center-wrap">
+                <a href="tel:+1234567890" class="header__phone">
+                    <i class="fas fa-mobile-alt"></i>
+                    +123 456 7890</a>
+                <p class="header__date">Mon-Fri: 8:30am-7:30pm; Sat-Sun: 9:30am-4:30pm </p>
+            </div>
+            <div class="col-lg-4 header__link-wrap">
+                <a href="#" class="header__wishlist">
+                    <i class="fas fa-star"></i>
+                    Wishlist
+                </a>
+                <a href="" class="header__compare">
+                    <i class="fas fa-car"></i>
+                    Compare
+                </a>
+                <a href="" class="header__cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    My&nbsp;Cart
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<nav class="menu">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="menu__list">
+                    <li class="menu__element">
+                        <a href="#" class="menu__link">Home</a>
+                    </li>
+                    <li class="menu__element">
+                        <a href="#" class="menu__link">Services</a>
+                    </li>
+                    <li class="menu__element">
+                        <a href="#" class="menu__link">About</a>
+                    </li>
+                    <li class="menu__element">
+                        <a href="#" class="menu__link">Reviews</a>
+                    </li>
+                    <li class="menu__element">
+                        <a href="#" class="menu__link">Locations</a>
+                    </li>
+                    <li class="menu__element">
+                        <a href="#" class="menu__link">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<section class="banner">
+    <div class="banner__blur"></div>
+    <div class="container-fluid p-0">
+        <div class="banner__img-wrap">
+            <img src="img/banner-img.jpg" alt="" class="banner__img">
+        </div>
+    </div>
+</section>
+
+<section class="category">
+    <div class="container-fluid category__wrap">
+        <div class="row">
+            <div class="col-md-6 category__element">
+                <div class="row">
+                    <a href="#" class="stretched-link"></a>
+                    <div class="col category__text">
+                        <h3 class="category__name">Headlights</h3>
+                        <p class="category__info">Headlights Projector, LED, Factory</p>
+                    </div>
+                    <div class="col category__img-wrap">
+                        <img src="img/led.png" alt="" class="category__img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 category__element">
+                <div class="row">
+                    <a href="#" class="stretched-link"></a>
+                    <div class="col category__text">
+                        <h3 class="category__name">Headlights</h3>
+                        <p class="category__info">Headlights Projector, LED, Factory</p>
+                    </div>
+                    <div class="col category__img-wrap">
+                        <img src="img/tormoz.png" alt="" class="category__img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 category__element">
+                <div class="row">
+                    <a href="#" class="stretched-link"></a>
+                    <div class="col category__text">
+                        <h3 class="category__name">Headlights</h3>
+                        <p class="category__info">Headlights Projector, LED, Factory</p>
+                    </div>
+                    <div class="col category__img-wrap">
+                        <img src="img/disk.png" alt="" class="category__img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 category__element">
+                <div class="row">
+                    <a href="#" class="stretched-link"></a>
+                    <div class="col category__text">
+                        <h3 class="category__name">Headlights</h3>
+                        <p class="category__info">Headlights Projector, LED, Factory</p>
+                    </div>
+                    <div class="col category__img-wrap">
+                        <img src="img/chair.png" alt="" class="category__img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="featured">
+    <div class="container-fluid featured__wrap">
+        <h2 class="featured__title">Featured Products</h2>
+
+        <div class="row">
+            <div class="col">
+                <div class="featured__block owl-carousel">
+                    <div class="featured__element">
+                        <div class="featured__img-wrap">
+                            <img src="img/product1.png" alt="" class="featured__img">
+                        </div>
+                        <div class="featured__info">
+                            <a href="#" class="featured__name stretched-link">Headlights</a>
+                            <p class="featured__price">&dollar;300.00</p>
+                            <div class="outer">
+                                <div class="overlay" style="width:5%"></div>
+                                <div class="inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured__element">
+                        <div class="featured__img-wrap">
+                            <img src="img/product2.png" alt="" class="featured__img">
+                        </div>
+                        <div class="featured__info">
+                            <a href="#" class="featured__name stretched-link">Headlights</a>
+                            <p class="featured__price">&dollar;300.00</p>
+                            <div class="outer">
+                                <div class="overlay" style="width:5%"></div>
+                                <div class="inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured__element">
+                        <div class="featured__img-wrap">
+                            <img src="img/product3.png" alt="" class="featured__img">
+                        </div>
+                        <div class="featured__info">
+                            <a href="#" class="featured__name stretched-link">Headlights</a>
+                            <p class="featured__price">&dollar;300.00</p>
+                            <div class="outer">
+                                <div class="overlay" style="width:5%"></div>
+                                <div class="inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured__element">
+                        <div class="featured__img-wrap">
+                            <img src="img/product4.png" alt="" class="featured__img">
+                        </div>
+                        <div class="featured__info">
+                            <a href="#" class="featured__name stretched-link">Headlights</a>
+                            <p class="featured__price">&dollar;300.00</p>
+                            <div class="outer">
+                                <div class="overlay" style="width:5%"></div>
+                                <div class="inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured__element">
+                        <div class="featured__img-wrap">
+                            <img src="img/product5.png" alt="" class="featured__img">
+                        </div>
+                        <div class="featured__info">
+                            <a href="#" class="featured__name stretched-link">Headlights</a>
+                            <p class="featured__price">&dollar;300.00</p>
+                            <div class="outer">
+                                <div class="overlay" style="width:30%"></div>
+                                <div class="inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured__element">
+                        <div class="featured__img-wrap">
+                            <img src="img/product1.png" alt="" class="featured__img">
+                        </div>
+                        <div class="featured__info">
+                            <a href="#" class="featured__name stretched-link">Headlights</a>
+                            <p class="featured__price">&dollar;300.00</p>
+                            <div class="outer">
+                                <div class="overlay" style="width:25%"></div>
+                                <div class="inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured__element">
+                        <div class="featured__img-wrap">
+                            <img src="img/product2.png" alt="" class="featured__img">
+                        </div>
+                        <div class="featured__info">
+                            <a href="#" class="featured__name stretched-link">Headlights</a>
+                            <p class="featured__price">&dollar;300.00</p>
+                            <div class="outer">
+                                <div class="overlay" style="width:50%"></div>
+                                <div class="inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="discount">
+    <div class="container-fluid discount__wrap">
+        <div class="row justify-content-center justify-content-lg-between align-items-center">
+            <div class="col-auto discount__element">
+                <p class="discount__title">25% OFF</p>
+                <p class="discount__subtitle">on order over $999</p>
+                <p class="discount__text">This Offer is valid on all our items</p>
+                <a href="#" class="btn discount__btn">Buy Now</a>
+            </div>
+            <div class="col-auto discount__element">
+                <p class="discount__title">25% OFF</p>
+                <p class="discount__subtitle">on order over $999</p>
+                <p class="discount__text">This Offer is valid on all our items</p>
+                <a href="#" class="btn discount__btn">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="links">
+    <div class="container-fluid links__wrap">
+        <div class="row justify-content-center">
+            <div class="col-lg-3 links__group">
+                <h3 class="links__title">Quick Links</h3>
+                <ul class="links__list">
+                    <li class="links__element">
+                        <a href="#" class="links__link">About Us</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Customer Service</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Privacy Policy</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Site Map</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Search Terms</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Advanced Search</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Orders and Returns</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 links__group">
+                <h3 class="links__title">Quick Links</h3>
+                <ul class="links__list">
+                    <li class="links__element">
+                        <a href="#" class="links__link">About Us</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Customer Service</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Privacy Policy</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Site Map</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Search Terms</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Advanced Search</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Orders and Returns</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 links__group">
+                <h3 class="links__title">Quick Links</h3>
+                <ul class="links__list">
+                    <li class="links__element">
+                        <a href="#" class="links__link">About Us</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Customer Service</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Privacy Policy</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Site Map</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Search Terms</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Advanced Search</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Orders and Returns</a>
+                    </li>
+                    <li class="links__element">
+                        <a href="#" class="links__link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 links__last">
+                <h3 class="links__title">Newsletter</h3>
+                <p class="links__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <form class="links__form">
+                    <div class="form-group">
+                        <label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary links__btn">Submit</button>
+                </form>
+                <ul class="links__social social">
+                    <li class="social__element">
+                        <a href="#" class="social__link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="social__element">
+                        <a href="#" class="social__link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social__element">
+                        <a href="#" class="social__link">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                    <li class="social__element">
+                        <a href="#" class="social__link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="social__element">
+                        <a href="#" class="social__link">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="info">
+    <div class="container-fluid info__wrap">
+        <div class="row justify-content-lg-between">
+            <div class="col-lg-4 info__element">
+                <h3 class="info__title">INFORMATION</h3>
+                <p class="info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-lg-4 info__element">
+                <h3 class="info__title">INFORMATION</h3>
+                <p class="info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-lg-3 info__element">
+                <h3 class="info__title">contact</h3>
+                <p class="info__address">
+                    <i class="fas fa-map-marker-alt"></i>
+                    123, Main Road, Your City, NY 1234
+                </p>
+                <p class="info__address">
+                    <i class="fas fa-phone-alt"></i>
+                    +123 456 7890
+                </p>
+                <p class="info__address">
+                    <i class="far fa-clock"></i>
+                    7 Days a week from 10:00 am to 6:00 pm
+                </p>
+                <p class="info__address">
+                    <i class="fas fa-envelope"></i>
+                    info@psdfreebies.com
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container-fluid footer__wrap">
+        <div class="row justify-content-center justify-content-md-between align-items-center">
+            <div class="col-md-6 footer__left">
+                <p class="footer__copyright"><span>CarStore</span> © 2017 . All Rights Reserved. </p>
+            </div>
+            <div class="col-md-6 footer__right">
+                <ul class="footer__paymants payments mx-auto ml-lg-auto mr-md-0">
+                    <li class="payments__element">
+                        <a href="#" class="payments__link">
+                            <i class="fab fa-cc-amex"></i>
+                        </a>
+                    </li>
+                    <li class="payments__element">
+                        <a href="#" class="payments__link">
+                            <i class="fab fa-cc-paypal"></i>
+                        </a>
+                    </li>
+                    <li class="payments__element">
+                        <a href="#" class="payments__link">
+                            <i class="fab fa-cc-visa"></i>
+                        </a>
+                    </li>
+                    <li class="payments__element">
+                        <a href="#" class="payments__link">
+                            <i class="fab fa-cc-mastercard"></i>
+                        </a>
+                    </li>
+                    <li class="payments__element">
+                        <a href="#" class="payments__link">
+                            <i class="fas fa-closed-captioning"></i>
+                        </a>
+                    </li>
+                    <li class="payments__element">
+                        <a href="#" class="payments__link">
+                            <i class="fab fa-cc-diners-club"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
